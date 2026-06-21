@@ -1,0 +1,18 @@
+{
+  "name": "website-uptime-monitor-lambda",
+  "version": "1.1.0",
+  "description": "AWS Lambda function for website uptime monitoring, custom metrics, DynamoDB history, and SNS alerting",
+  "author": "Yugandhar E",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "node --check function.mjs",
+    "lint": "node --check function.mjs"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cloudwatch": "^3.0.0",
+    "@aws-sdk/client-dynamodb": "^3.0.0",
+    "@aws-sdk/client-sns": "^3.0.0",
+    "uuid": "^10.0.0"
+  }
+}

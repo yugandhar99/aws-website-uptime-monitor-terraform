@@ -1,0 +1,29 @@
+[
+  {
+    "timestamp": "2026-06-21T10:00:00Z",
+    "websiteUrl": "https://example.com/",
+    "status": "SUCCESS",
+    "statusCode": 200,
+    "responseTime": 220,
+    "errorType": "",
+    "errorMessage": ""
+  },
+  {
+    "timestamp": "2026-06-21T10:05:00Z",
+    "websiteUrl": "https://example.com/",
+    "status": "FAILURE",
+    "statusCode": 504,
+    "responseTime": 5012,
+    "errorType": "InvalidStatusCode",
+    "errorMessage": "Expected 200, received 504"
+  },
+  {
+    "timestamp": "2026-06-21T10:10:00Z",
+    "websiteUrl": "https://example.com/",
+    "status": "SUCCESS",
+    "statusCode": 200,
+    "responseTime": 310,
+    "errorType": "",
+    "errorMessage": ""
+  }
+]

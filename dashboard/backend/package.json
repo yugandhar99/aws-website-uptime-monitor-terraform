@@ -1,0 +1,17 @@
+{
+  "name": "uptime-monitor-api",
+  "version": "1.1.0",
+  "description": "Serverless API handlers for the uptime monitor dashboard",
+  "author": "Yugandhar E",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "node --check functions/*.mjs",
+    "lint": "node --check functions/*.mjs"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.0.0",
+    "@aws-sdk/lib-dynamodb": "^3.0.0",
+    "uuid": "^10.0.0"
+  }
+}
