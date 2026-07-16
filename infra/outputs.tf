@@ -3,7 +3,6 @@ output "dashboard_url" {
   value       = module.dashboard.url
 }
 
-
 output "dashboard_api_url" {
   description = "API Gateway URL used by the React dashboard."
   value       = module.dashboard.api_url
