@@ -3,7 +3,6 @@ resource "aws_dynamodb_table" "uptime_metrics" {
   billing_mode = var.db_billing_mode
   hash_key     = "id"
 
-
   attribute {
     name = "id"
     type = "S"
