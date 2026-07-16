@@ -1,3 +1,3 @@
 locals {
-  project_name = "website-uptime-monitor"
+  project_name = "website-uptime-moni tor"
 }
