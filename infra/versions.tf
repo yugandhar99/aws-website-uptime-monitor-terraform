@@ -17,7 +17,7 @@ provider "aws" {
     tags = {
       Project     = local.project_name
       Environment = var.environment
-      Terraform   = "true"
+      Terraform   = "true" 
     }
   }
 }
