@@ -7,7 +7,7 @@ resource "aws_dynamodb_table" "uptime_metrics" {
     name = "id"
     type = "S"
   }
- 
+
   server_side_encryption {
     enabled = true
   }
