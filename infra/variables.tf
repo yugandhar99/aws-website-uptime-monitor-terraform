@@ -8,7 +8,6 @@ variable "environment" {
     error_message = "environment must be one of: dev, staging, prod."
   }
 }
-
 variable "aws_region" {
   description = "AWS region used for all regional resources."
   type        = string
