@@ -6,6 +6,6 @@
 #     key            = "website-uptime-monitor/terraform.tfstate"
 #     region         = "us-west-2"
 #     dynamodb_table = "your-terraform-lock-table"
-#     encrypt        = true
+#     encrypt        = true 
 #   }
 # }
