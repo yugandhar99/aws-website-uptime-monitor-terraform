@@ -7,7 +7,7 @@
 
 run "demo_plan" {
   command = plan
-
+ 
   assert {
     condition     = local.project_name == "website-uptime-monitor"
     error_message = "Invalid project name"
