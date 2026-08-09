@@ -1,4 +1,4 @@
-output "dashboard_url" { 
+output "dashboard_url" {
   description = "CloudFront dashboard URL."
   value       = module.dashboard.url
 }
