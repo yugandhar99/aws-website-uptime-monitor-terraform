@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3 
 """Generate an uptime incident summary from JSON events.
 
 Default offline mode is deterministic and does not call external services.
