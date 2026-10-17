@@ -1,4 +1,4 @@
-output "lambda_function_name" { 
+output "lambda_function_name" {
   description = "Name of the uptime check Lambda function."
   value       = module.lambda_function.lambda_function_name
 }
