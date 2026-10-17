@@ -1,4 +1,4 @@
-data "aws_dynamodb_table" "this" {
+data "aws_dynamodb_table" "this" { 
   name = var.dynamodb_table_name
 }
 
