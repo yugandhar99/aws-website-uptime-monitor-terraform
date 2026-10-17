@@ -1,4 +1,4 @@
-import { DynamoDBClient, PutItemCommand } from '@aws-sdk/client-dynamodb';
+import { DynamoDBClient, PutItemCommand } from '@aws-sdk/client-dynamodb'; 
 import { SNSClient, PublishCommand } from '@aws-sdk/client-sns';
 import { CloudWatchClient, PutMetricDataCommand } from '@aws-sdk/client-cloudwatch';
 import { v4 as uuidv4 } from 'uuid';
